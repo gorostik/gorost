@@ -42,7 +42,7 @@ body.onscroll = function() {
 
 function addOpacity() {
    if ((valueScroll >= 600) && (valueScroll <= 1400) && (valueContentOne < 1)) {
-        valueContentOne = valueContentOne + 0.05
+        valueContentOne = valueContentOne + 0.1
         contentOne.style.opacity = valueContentOne       
    } 
    if ((valueScroll >= 1500) && (valueScroll <= 2300) && (valueContentTwo < 1)) {   
